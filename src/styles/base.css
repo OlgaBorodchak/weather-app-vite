@@ -12,8 +12,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   transition: var(--transition-bg);
-  min-height: 100vh;
-  color: var(--clr-white-100);
 }
 
 main {
@@ -22,8 +20,6 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: var(--space-xl) var(--space-md);
-  gap: 0;
 }
 
 img,

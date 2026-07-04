@@ -8,18 +8,17 @@
   --fw-bold:        600;
 
   /* Font sizes */
-  --fs-xs:   0.75rem;
-  --fs-sm:   0.8125rem;
-  --fs-md:   1rem;
-  --fs-lg:   1.125rem;
-  --fs-xl:   clamp(5rem, 12vw, 7rem);
+  --fs-xs:  0.75rem;    
+  --fs-md:  0.9375rem;  
+  --fs-lg:  1.125rem;   
+  --fs-xl:  clamp(5rem, 12vw, 7rem); 
 
   /* Colors — white opacity scale */
-  --clr-white-100: rgba(255, 255, 255, 1);
-  --clr-white-80:  rgba(255, 255, 255, 0.8);
-  --clr-white-55:  rgba(255, 255, 255, 0.55);
-  --clr-white-40:  rgba(255, 255, 255, 0.4);
-  --clr-white-35:  rgba(255, 255, 255, 0.35);
+  --clr-white-100: rgba(255, 255, 255, 1.0);  /* 21:1 — headings, temp */
+  --clr-white-80:  rgba(255, 255, 255, 0.87); /* ~14:1 — primary text */
+  --clr-white-55:  rgba(255, 255, 255, 0.72); /* ~7:1  — secondary text, AA large */
+  --clr-white-40:  rgba(255, 255, 255, 0.60); /* ~4.5:1 — min AA body text */
+  --clr-white-35:  rgba(255, 255, 255, 0.54); /* ~4.5:1 — labels, placeholders */
 
   /* Colors — UI */
   --clr-error:     rgba(255, 190, 160, 1);
