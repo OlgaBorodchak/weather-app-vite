@@ -99,7 +99,7 @@
 }
 
 .city {
-  font-size: var(--fs-md);
+  font-size: var(--fs-xs);
   font-weight: var(--fw-regular);
 }
 

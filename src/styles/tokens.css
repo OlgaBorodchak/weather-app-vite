@@ -1,48 +1,48 @@
 :root {
   /* Typography */
   --font-family: 'Montserrat', sans-serif;
-  --fw-thin:        200;
-  --fw-light:       300;
-  --fw-regular:     400;
-  --fw-medium:      500;
-  --fw-bold:        600;
+  --fw-thin:    200;
+  --fw-light:   300;
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-bold:    600;
 
   /* Font sizes */
-  --fs-xs:  0.75rem;    
-  --fs-md:  0.9375rem;  
-  --fs-lg:  1.125rem;   
-  --fs-xl:  clamp(5rem, 12vw, 7rem); 
+  --fs-xs:  0.75rem;                  /* 12px — labels, dates, hints */
+  --fs-md:  0.9375rem;                /* 15px — body text, input */
+  --fs-lg:  1.125rem;                 /* 18px — stats values */
+  --fs-xl:  clamp(5rem, 12vw, 7rem);  /* temperature */
 
-  /* Colors — white opacity scale */
-  --clr-white-100: rgba(255, 255, 255, 1.0);  /* 21:1 — headings, temp */
+  /* Colors — white opacity scale (WCAG AA on rgba(0,0,0,0.35) backdrop) */
+  --clr-white-100: rgba(255, 255, 255, 1.00); /* 21:1  — headings, temp */
   --clr-white-80:  rgba(255, 255, 255, 0.87); /* ~14:1 — primary text */
-  --clr-white-55:  rgba(255, 255, 255, 0.72); /* ~7:1  — secondary text, AA large */
-  --clr-white-40:  rgba(255, 255, 255, 0.60); /* ~4.5:1 — min AA body text */
-  --clr-white-35:  rgba(255, 255, 255, 0.54); /* ~4.5:1 — labels, placeholders */
+  --clr-white-55:  rgba(255, 255, 255, 0.72); /* ~7:1  — secondary text */
+  --clr-white-40:  rgba(255, 255, 255, 0.60); /* ~4.5:1 — min AA */
+  --clr-white-35:  rgba(255, 255, 255, 0.54); /* ~4.5:1 — labels */
 
   /* Colors — UI */
-  --clr-error:     rgba(255, 190, 160, 1);
-  --clr-divider:   rgba(255, 255, 255, 0.18);
-  --clr-input-bg:  rgba(255, 255, 255, 0.12);
+  --clr-error:        rgba(255, 190, 160, 1);
+  --clr-divider:      rgba(255, 255, 255, 0.18);
+  --clr-input-bg:     rgba(255, 255, 255, 0.12);
   --clr-input-border: rgba(255, 255, 255, 0.25);
 
   /* Gradients — default + weather conditions */
-  --grad-default:       linear-gradient(135deg, #4a5568 0%, #718096 100%);
-  --grad-clear:         linear-gradient(135deg, #e8820c 0%, #f5b942 100%);
-  --grad-clouds:        linear-gradient(135deg, #606c7c 0%, #9aa5b4 100%);
-  --grad-rain:          linear-gradient(135deg, #1a3a5c 0%, #4a7fb5 100%);
-  --grad-drizzle:       linear-gradient(135deg, #2c5282 0%, #63b3ed 100%);
-  --grad-thunderstorm:  linear-gradient(135deg, #1a1a2e 0%, #4a3f6b 100%);
-  --grad-snow:          linear-gradient(135deg, #7eafd4 0%, #c8e6f5 100%);
-  --grad-mist:          linear-gradient(135deg, #8e9eab 0%, #c8d6df 100%);
-  --grad-haze:          linear-gradient(135deg, #b8860b 0%, #d4a843 100%);
+  --grad-default:      linear-gradient(135deg, #4a5568 0%, #718096 100%);
+  --grad-clear:        linear-gradient(135deg, #e8820c 0%, #f5b942 100%);
+  --grad-clouds:       linear-gradient(135deg, #606c7c 0%, #9aa5b4 100%);
+  --grad-rain:         linear-gradient(135deg, #1a3a5c 0%, #4a7fb5 100%);
+  --grad-drizzle:      linear-gradient(135deg, #2c5282 0%, #63b3ed 100%);
+  --grad-thunderstorm: linear-gradient(135deg, #1a1a2e 0%, #4a3f6b 100%);
+  --grad-snow:         linear-gradient(135deg, #7eafd4 0%, #c8e6f5 100%);
+  --grad-mist:         linear-gradient(135deg, #8e9eab 0%, #c8d6df 100%);
+  --grad-haze:         linear-gradient(135deg, #b8860b 0%, #d4a843 100%);
 
   /* Spacing */
-  --space-xs:  0.375rem;
-  --space-sm:  0.75rem;
-  --space-md:  1.25rem;
-  --space-lg:  2rem;
-  --space-xl:  2.5rem;
+  --space-xs: 0.375rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 2.5rem;
 
   /* Border radius */
   --radius-sm: 0.625rem;
